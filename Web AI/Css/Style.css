@@ -14,7 +14,7 @@
     margin: 0;
     padding: 0;
   }
-  
+
   main {
     margin-left: 5rem;
     padding: 1rem;
@@ -189,4 +189,34 @@
       top: -50%; }
     100% {
       top: 110%; } }
-  
+
+      @import url('http://fonts.cdnfonts.com/css/colonna-mt');
+
+      .welcome{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: 30px;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        text-align: center;
+        font-size: 3rem;
+        font-family: 'Times New Roman', Times, serif;
+        width: 100%;
+        text-shadow: 0 0 10px rgb(255, 255, 255);
+      }
+
+      .titel{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding-bottom: 100px;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        text-align: center;
+        font-size: 6rem;
+        letter-spacing: 0.1ch;
+        width: 100%;
+        text-shadow: 0 0 30px rgb(255, 255, 255);
+        font-family: 'Colonna MT', sans-serif;
+      }
