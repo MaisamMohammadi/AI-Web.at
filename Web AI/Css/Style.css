@@ -220,3 +220,11 @@
         text-shadow: 0 0 30px rgb(255, 255, 255);
         font-family: 'Colonna MT', sans-serif;
       }
+
+.audio{
+  width: 200px;
+  height: 80px;
+  position: absolute;
+  left: 10%;
+  top: 20%;
+}
